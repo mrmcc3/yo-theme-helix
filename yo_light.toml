@@ -1,0 +1,109 @@
+# yo_light
+
+# Helix theme inspired by Zenbones & Alabaster using the
+# radix color system - https://www.radix-ui.com/colors
+
+# Author: Michael McClintock @mrmcc3
+# License: MIT
+
+inherits = "yo_dark"
+
+[palette]
+
+# gray (default text/ui) - sandDark
+gray1 = "#fdfdfc"
+gray2 = "#f9f9f8"
+gray3 = "#f3f3f2"
+gray4 = "#eeeeec"
+gray5 = "#e9e9e6"
+gray6 = "#e3e3e0"
+gray7 = "#dbdbd7"
+gray8 = "#c8c7c1"
+gray9 = "#90908c"
+gray10 = "#868682"
+gray11 = "#706f6c"
+gray12 = "#1b1b18"
+
+# alt (active, global defs) - bronzeDark
+alt1 = "#fdfcfc"
+alt2 = "#fdf8f6"
+alt3 = "#f8f1ee"
+alt4 = "#f2e8e4"
+alt5 = "#eaddd7"
+alt6 = "#e0cec7"
+alt7 = "#d1b9b0"
+alt8 = "#bfa094"
+alt9 = "#a18072"
+alt10 = "#977669"
+alt11 = "#846358"
+alt12 = "#43302b"
+
+# error (diagnostics) - redDark
+err1 = "#fffcfc"
+err2 = "#fff8f8"
+err3 = "#ffefef"
+err4 = "#ffe5e5"
+err5 = "#fdd8d8"
+err6 = "#f9c6c6"
+err7 = "#f3aeaf"
+err8 = "#eb9091"
+err9 = "#e5484d"
+err10 = "#dc3d43"
+err11 = "#cd2b31"
+err12 = "#381316"
+
+# warn (diagnostics) - amber
+warn1 = "#fefdfb"
+warn2 = "#fff9ed"
+warn3 = "#fff4d5"
+warn4 = "#ffecbc"
+warn5 = "#ffe3a2"
+warn6 = "#ffd386"
+warn7 = "#f3ba63"
+warn8 = "#ee9d2b"
+warn9 = "#ffb224"
+warn10 = "#ffa01c"
+warn11 = "#ad5700"
+warn12 = "#4e2009"
+
+# info (diagnostics/comments) - blue
+info1 = "#fbfdff"
+info2 = "#f5faff"
+info3 = "#edf6ff"
+info4 = "#e1f0ff"
+info5 = "#cee7fe"
+info6 = "#b7d9f8"
+info7 = "#96c7f2"
+info8 = "#5eb0ef"
+info9 = "#0091ff"
+info10 = "#0081f1"
+info11 = "#006adc"
+info12 = "#00254d"
+
+# str (strings) - green
+str1 = "#fbfefc"
+str2 = "#f2fcf5"
+str3 = "#e9f9ee"
+str4 = "#ddf3e4"
+str5 = "#ccebd7"
+str6 = "#b4dfc4"
+str7 = "#92ceac"
+str8 = "#5bb98c"
+str9 = "#30a46c"
+str10 = "#299764"
+str11 = "#18794e"
+str12 = "#153226"
+
+# const (constants/literals) - purple
+const1 = "#fefcfe"
+const2 = "#fdfaff"
+const3 = "#f9f1fe"
+const4 = "#f3e7fc"
+const5 = "#eddbf9"
+const6 = "#e3ccf4"
+const7 = "#d3b4ed"
+const8 = "#be93e4"
+const9 = "#8e4ec6"
+const10 = "#8445bc"
+const11 = "#793aaf"
+const12 = "#2b0e44"

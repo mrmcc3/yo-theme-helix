@@ -1,0 +1,201 @@
+# yo_dark
+
+# Helix theme inspired by Zenbones & Alabaster using the
+# radix color system - https://www.radix-ui.com/colors
+
+# Author: Michael McClintock @mrmcc3
+# License: MIT
+
+"ui.background" = { fg = "gray11", bg = "gray2" } 
+"ui.background.separator" = { fg = "gray7" }
+"ui.text" = { fg = "gray11" }
+"ui.text.focus" = { fg = "alt10", bg="gray2", modifiers=["bold"] }
+
+# popups/menus
+"ui.window" = { fg = "gray7" }
+"ui.popup" = { fg = "gray12", bg = "gray4" }
+"ui.popup.info" = { fg = "gray12", bg = "gray2" }
+"ui.text.info" = { fg = "gray12", bg = "gray2" }
+"ui.help" = { fg = "gray12", bg = "gray2" }
+"ui.menu" = { fg = "gray11", bg = "gray4" }
+"ui.menu.selected" = { fg = "alt10", modifiers=["bold"] }
+"ui.menu.scroll" = { fg = "gray8", bg = "gray4" }
+
+# cursor/selection
+"ui.cursor" = { fg = "gray2", bg = "gray11" }
+# "ui.cursor.primary" = { fg = "alt2", bg = "alt10" } # can't set insert if set
+"ui.cursor.insert" = { fg="alt2", bg="alt10" }
+"ui.cursor.select" = { fg="gray2", bg="gray12"}
+"ui.cursor.match" = { fg="alt10", modifiers=["bold"]}
+"ui.selection" = { fg = "gray12", bg = "gray5" }
+"ui.selection.primary" = { fg = "alt12", bg = "alt5" }
+"ui.cursorline.primary" = { bg = "gray3" }
+
+# gutter
+# "ui.gutter" = { } # not set
+# "ui.gutter.selected" = { }
+"ui.linenr" = { fg = "gray7" }
+"ui.linenr.selected" = { fg = "alt8" }
+
+# statusline
+"ui.statusline" = { fg = "gray11", bg = "gray4" }
+"ui.statusline.inactive" = { fg = "gray11", bg = "gray2" }
+"ui.statusline.normal" = { fg = "gray2", bg = "gray11" }
+"ui.statusline.insert" = { fg = "alt2", bg = "alt10" }
+"ui.statusline.select" = { fg = "alt2", bg = "gray12" }
+"ui.statusline.separator" = { fg = "gray7" }
+
+# virtual
+"ui.virtual.ruler" = { bg = "gray3" }
+"ui.virtual.whitespace" = { fg = "gray6" }
+"ui.virtual.indent-guide" = { fg = "gray6" }
+
+# diff
+"diff.plus" = "gray7"
+"diff.minus" = "gray7"
+"diff.delta" = "gray7"
+
+# diagnostics
+warning = "warn10"
+error = "err10"
+info = "info10"
+hint = "info10"
+"diagnostic.hint" = { underline = { style = "curl", color = "info7" } }
+"diagnostic.info" = { underline = { style = "curl", color = "info7" } }
+"diagnostic.warning" = { underline = { style = "curl", color = "warn10" } }
+"diagnostic.error" = { underline = { style = "curl", color = "err10" } }
+
+
+# comments - info
+comment = { fg = "info10" }
+
+# keywords/operators - alt
+keyword = { fg = "alt10", modifiers=["bold"] }
+operator = { fg = "alt10" }
+
+
+# strings - str
+string = { fg = "str10" }
+
+# constants - const
+constant = { fg = "const10"}
+"string.symbol" = { fg = "const10" }
+
+# everything else - gray
+variable = { fg = "gray10" }
+
+punctuation = { fg = "gray11" }
+function = { fg = "gray11" }
+attribute = { fg = "gray11" }
+
+tag = { fg = "gray12" }
+constructor = { fg = "gray12" }
+type = { fg = "gray12" , modifiers = [] }
+
+
+# TODO
+namespace = "err10"
+label = "err10"
+markup = "err10"
+diff = "err10"
+
+
+[palette] 
+
+# gray (default text/ui) - sandDark
+gray1 = "#161615"
+gray2 = "#1c1c1a"
+gray3 = "#232320"
+gray4 = "#282826"
+gray5 = "#2e2e2b"
+gray6 = "#353431"
+gray7 = "#3e3e3a"
+gray8 = "#51504b"
+gray9 = "#717069"
+gray10 = "#7f7e77"
+gray11 = "#a1a09a"
+gray12 = "#ededec"
+
+# alt (active, global defs) - bronzeDark
+alt1 = "#191514"
+alt2 = "#1f1917"
+alt3 = "#2a211f"
+alt4 = "#332824"
+alt5 = "#3b2e29"
+alt6 = "#453530"
+alt7 = "#57433c"
+alt8 = "#74594e"
+alt9 = "#a18072"
+alt10 = "#b08c7d"
+alt11 = "#cba393"
+alt12 = "#f9ede7"
+
+# error (diagnostics) - redDark
+err1 = "#1f1315"
+err2 = "#291415"
+err3 = "#3c181a"
+err4 = "#481a1d"
+err5 = "#541b1f"
+err6 = "#671e22"
+err7 = "#822025"
+err8 = "#aa2429"
+err9 = "#e5484d"
+err10 = "#f2555a"
+err11 = "#ff6369"
+err12 = "#feecee"
+
+# warning (diagnostics) - amberDark
+warn1 = "#1f1300"
+warn2 = "#271700"
+warn3 = "#341c00"
+warn4 = "#3f2200"
+warn5 = "#4a2900"
+warn6 = "#573300"
+warn7 = "#693f05"
+warn8 = "#824e00"
+warn9 = "#ffb224"
+warn10 = "#ffcb47"
+warn11 = "#f1a10d"
+warn12 = "#fef3dd"
+
+# info (diagnostics/comments) - blueDark
+info1 = "#0f1720"
+info2 = "#0f1b2d"
+info3 = "#10243e"
+info4 = "#102a4c"
+info5 = "#0f3058"
+info6 = "#0d3868"
+info7 = "#0a4481"
+info8 = "#0954a5"
+info9 = "#0091ff"
+info10 = "#369eff"
+info11 = "#52a9ff"
+info12 = "#eaf6ff"
+
+# str (strings) - greenDark
+str1 = "#0d1912"
+str2 = "#0c1f17"
+str3 = "#0f291e"
+str4 = "#113123"
+str5 = "#133929"
+str6 = "#164430"
+str7 = "#1b543a"
+str8 = "#236e4a"
+str9 = "#30a46c"
+str10 = "#3cb179"
+str11 = "#4cc38a"
+str12 = "#e5fbeb"
+
+# const (constants/literals) - purpleDark
+const1 = "#1b141d"
+const2 = "#221527"
+const3 = "#301a3a"
+const4 = "#3a1e48"
+const5 = "#432155"
+const6 = "#4e2667"
+const7 = "#5f2d84"
+const8 = "#7938b2"
+const9 = "#8e4ec6"
+const10 = "#9d5bd2"
+const11 = "#bf7af0"
+const12 = "#f7ecfc"
