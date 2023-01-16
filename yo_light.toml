@@ -28,6 +28,10 @@ inherits = "yo_dark"
 "ui.selection.primary" = { fg = "alt12", bg = "alt6" }
 "ui.cursorline.primary" = { bg = "gray4" }
 
+# line numbers
+"ui.linenr" = { fg = "gray8" }
+"ui.linenr.selected" = { fg = "alt8" }
+
 # statusline
 "ui.statusline" = { fg = "gray11", bg = "gray5" }
 "ui.statusline.inactive" = { fg = "gray11", bg = "gray3" }

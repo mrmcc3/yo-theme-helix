@@ -8,13 +8,14 @@ A [Helix][helix] theme inspired by [Zenbones][zenbones] &
 - Ideas from alabaster.
   - Comments should stand out.
   - Use color sparingly. The rules should be simple.
-- Alabaster essentially skips eveything else. It doesn't highlight keywords
-  (reserved words) or types. (which to be fair isn't really an issue for
+    - avoid font variants where possible.
+- Alabaster essentially only higlights comments/constants and strings. 
+  - It doesn't highlight keywords (reserved words) or types. (which to be fair isn't really an issue for
   clojure)
   - Yo doesn't go quite as far on this point.
   - Instead it takes the minimal zenbones approach to highlight the remaining
     code constructs.
-    - subtle colors, contrast & font variants
+    - subtle colors, contrast.
     - vibrant colors are left for diagnostics.
 - The default yo themes use the following:
   - **Green** for strings (same as alabaster)

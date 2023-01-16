@@ -60,15 +60,15 @@ hint = { fg = "info10" }
 "diagnostic.error" = { underline = { style = "curl", color = "err10" } }
 
 # code
-comment = { fg = "info9" }
-keyword = { fg = "alt9", modifiers = ["bold"] }
+comment = { fg = "info10" }
+keyword = { fg = "alt9" }
 operator = { fg = "alt9" }
 string = { fg = "str9" }
 constant = { fg = "const9" }
 "string.symbol" = { fg = "const9" }
-variable = { fg = "gray9" }
-namespace = { fg = "gray9" }
-punctuation = { fg = "gray10" }
+variable = { fg = "gray11" }
+namespace = { fg = "gray11" }
+punctuation = { fg = "gray11" }
 function = { fg = "gray11" }
 attribute = { fg = "gray11" }
 tag = { fg = "gray12" }
