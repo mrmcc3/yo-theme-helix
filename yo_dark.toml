@@ -1,15 +1,16 @@
 # yo_dark
 
 # Helix theme inspired by Zenbones & Alabaster using the
-# radix color system - https://www.radix-ui.com/colors
+# radix color system https://www.radix-ui.com/colors
 
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
+# background/text
 "ui.background" = { fg = "gray11", bg = "gray2" } 
 "ui.background.separator" = { fg = "gray7" }
 "ui.text" = { fg = "gray11" }
-"ui.text.focus" = { fg = "alt10", bg="gray2", modifiers=["bold"] }
+"ui.text.focus" = { fg = "alt10", modifiers=["bold"] }
 
 # popups/menus
 "ui.window" = { fg = "gray7" }
@@ -23,7 +24,6 @@
 
 # cursor/selection
 "ui.cursor" = { fg = "gray2", bg = "gray11" }
-# "ui.cursor.primary" = { fg = "alt2", bg = "alt10" } # can't set insert if set
 "ui.cursor.insert" = { fg="alt2", bg="alt10" }
 "ui.cursor.select" = { fg="gray2", bg="gray12"}
 "ui.cursor.match" = { fg="alt10", modifiers=["bold"]}
@@ -31,11 +31,10 @@
 "ui.selection.primary" = { fg = "alt12", bg = "alt5" }
 "ui.cursorline.primary" = { bg = "gray3" }
 
-# gutter
-# "ui.gutter" = { } # not set
-# "ui.gutter.selected" = { }
+# line numbers / diff
 "ui.linenr" = { fg = "gray7" }
 "ui.linenr.selected" = { fg = "alt8" }
+diff = { fg = "gray7" }
 
 # statusline
 "ui.statusline" = { fg = "gray11", bg = "gray4" }
@@ -50,59 +49,47 @@
 "ui.virtual.whitespace" = { fg = "gray6" }
 "ui.virtual.indent-guide" = { fg = "gray6" }
 
-# diff
-"diff.plus" = "gray7"
-"diff.minus" = "gray7"
-"diff.delta" = "gray7"
-
 # diagnostics
-warning = "warn10"
-error = "err10"
-info = "info10"
-hint = "info10"
-"diagnostic.hint" = { underline = { style = "curl", color = "info7" } }
-"diagnostic.info" = { underline = { style = "curl", color = "info7" } }
+warning = { fg = "warn10" }
+error = { fg = "err10" }
+info = { fg = "info10" }
+hint = { fg = "info10" }
+"diagnostic.hint" = { underline = { style = "curl", color = "gray8" } }
+"diagnostic.info" = { underline = { style = "curl", color = "gray8" } }
 "diagnostic.warning" = { underline = { style = "curl", color = "warn10" } }
 "diagnostic.error" = { underline = { style = "curl", color = "err10" } }
 
-
-# comments - info
-comment = { fg = "info10" }
-
-# keywords/operators - alt
-keyword = { fg = "alt10", modifiers=["bold"] }
-operator = { fg = "alt10" }
-
-
-# strings - str
-string = { fg = "str10" }
-
-# constants - const
-constant = { fg = "const10"}
-"string.symbol" = { fg = "const10" }
-
-# everything else - gray
-variable = { fg = "gray10" }
-
-punctuation = { fg = "gray11" }
+# code
+comment = { fg = "info9" }
+keyword = { fg = "alt9", modifiers=["bold"] }
+operator = { fg = "alt9" }
+string = { fg = "str9" }
+constant = { fg = "const9"}
+"string.symbol" = { fg = "const9" }
+variable = { fg = "gray9" }
+namespace = { fg = "gray9" }
+punctuation = { fg = "gray10" }
 function = { fg = "gray11" }
 attribute = { fg = "gray11" }
-
 tag = { fg = "gray12" }
+label = { fg = "gray12" }
 constructor = { fg = "gray12" }
 type = { fg = "gray12" , modifiers = [] }
 
+# markup
+markup = { fg = "gray9" }
+"markup.list" = { fg = "gray8" }
+"markup.heading" = { fg = "gray12", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link" = { fg = "gray12" }
+"markup.link.url" = { fg = "gray11", modifiers = ["underlined"] }
+"markup.quote" = { fg = "alt9", modifiers = ["italic"] }
+"markup.raw" = { fg = "gray12" }
 
-# TODO
-namespace = "err10"
-label = "err10"
-markup = "err10"
-diff = "err10"
+[palette] # https://www.radix-ui.com/docs/colors/palette-composition/the-scales
 
-
-[palette] 
-
-# gray (default text/ui) - sandDark
+# gray (default/text/ui) - sandDark
 gray1 = "#161615"
 gray2 = "#1c1c1a"
 gray3 = "#232320"
@@ -116,7 +103,7 @@ gray10 = "#7f7e77"
 gray11 = "#a1a09a"
 gray12 = "#ededec"
 
-# alt (active, global defs) - bronzeDark
+# alt (active/operators/keywords) - bronzeDark
 alt1 = "#191514"
 alt2 = "#1f1917"
 alt3 = "#2a211f"
@@ -172,18 +159,18 @@ info10 = "#369eff"
 info11 = "#52a9ff"
 info12 = "#eaf6ff"
 
-# str (strings) - greenDark
+# str (strings) - grassDark
 str1 = "#0d1912"
-str2 = "#0c1f17"
-str3 = "#0f291e"
-str4 = "#113123"
-str5 = "#133929"
-str6 = "#164430"
-str7 = "#1b543a"
-str8 = "#236e4a"
-str9 = "#30a46c"
-str10 = "#3cb179"
-str11 = "#4cc38a"
+str2 = "#0f1e13"
+str3 = "#132819"
+str4 = "#16301d"
+str5 = "#193921"
+str6 = "#1d4427"
+str7 = "#245530"
+str8 = "#2f6e3b"
+str9 = "#46a758"
+str10 = "#55b467"
+str11 = "#63c174"
 str12 = "#e5fbeb"
 
 # const (constants/literals) - purpleDark

@@ -6,11 +6,44 @@
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
-inherits = "yo_dark"
+inherits = "yo_dark" 
 
-[palette]
+# bump up backgrounds by 1 so it's not too bright.
 
-# gray (default text/ui) - sandDark
+"ui.background" = { fg = "gray11", bg = "gray3" } 
+
+# popups/menus
+"ui.popup" = { fg = "gray12", bg = "gray5" }
+"ui.popup.info" = { fg = "gray12", bg = "gray3" }
+"ui.text.info" = { fg = "gray12", bg = "gray3" }
+"ui.help" = { fg = "gray12", bg = "gray3" }
+"ui.menu" = { fg = "gray11", bg = "gray5" }
+"ui.menu.scroll" = { fg = "gray8", bg = "gray5" }
+
+# cursor/selection
+"ui.cursor" = { fg = "gray3", bg = "gray11" }
+"ui.cursor.insert" = { fg="alt3", bg="alt10" }
+"ui.cursor.select" = { fg="gray3", bg="gray12"}
+"ui.selection" = { fg = "gray12", bg = "gray6" }
+"ui.selection.primary" = { fg = "alt12", bg = "alt6" }
+"ui.cursorline.primary" = { bg = "gray4" }
+
+# statusline
+"ui.statusline" = { fg = "gray11", bg = "gray5" }
+"ui.statusline.inactive" = { fg = "gray11", bg = "gray3" }
+"ui.statusline.normal" = { fg = "gray3", bg = "gray11" }
+"ui.statusline.insert" = { fg = "alt3", bg = "alt10" }
+"ui.statusline.select" = { fg = "alt3", bg = "gray12" }
+"ui.statusline.separator" = { fg = "gray8" }
+
+# virtual
+"ui.virtual.ruler" = { bg = "gray4" }
+"ui.virtual.whitespace" = { fg = "gray7" }
+"ui.virtual.indent-guide" = { fg = "gray7" }
+
+[palette] # https://www.radix-ui.com/docs/colors/palette-composition/the-scales
+
+# gray (default/text/ui) - sand
 gray1 = "#fdfdfc"
 gray2 = "#f9f9f8"
 gray3 = "#f3f3f2"
@@ -24,7 +57,7 @@ gray10 = "#868682"
 gray11 = "#706f6c"
 gray12 = "#1b1b18"
 
-# alt (active, global defs) - bronzeDark
+# alt (active/operators/keywords) - bronze
 alt1 = "#fdfcfc"
 alt2 = "#fdf8f6"
 alt3 = "#f8f1ee"
@@ -38,7 +71,7 @@ alt10 = "#977669"
 alt11 = "#846358"
 alt12 = "#43302b"
 
-# error (diagnostics) - redDark
+# error (diagnostics) - red
 err1 = "#fffcfc"
 err2 = "#fff8f8"
 err3 = "#ffefef"
@@ -80,19 +113,19 @@ info10 = "#0081f1"
 info11 = "#006adc"
 info12 = "#00254d"
 
-# str (strings) - green
-str1 = "#fbfefc"
-str2 = "#f2fcf5"
-str3 = "#e9f9ee"
-str4 = "#ddf3e4"
-str5 = "#ccebd7"
-str6 = "#b4dfc4"
-str7 = "#92ceac"
-str8 = "#5bb98c"
-str9 = "#30a46c"
-str10 = "#299764"
-str11 = "#18794e"
-str12 = "#153226"
+# str (strings) - grass
+str1 = "#fbfefb"
+str2 = "#f3fcf3"
+str3 = "#ebf9eb"
+str4 = "#dff3df"
+str5 = "#ceebcf"
+str6 = "#b7dfba"
+str7 = "#97cf9c"
+str8 = "#65ba75"
+str9 = "#46a758"
+str10 = "#3d9a50"
+str11 = "#297c3b"
+str12 = "#1b311e"
 
 # const (constants/literals) - purple
 const1 = "#fefcfe"
