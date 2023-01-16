@@ -7,10 +7,10 @@
 # License: MIT
 
 # background/text
-"ui.background" = { fg = "gray11", bg = "gray2" } 
+"ui.background" = { fg = "gray11", bg = "gray2" }
 "ui.background.separator" = { fg = "gray7" }
 "ui.text" = { fg = "gray11" }
-"ui.text.focus" = { fg = "alt10", modifiers=["bold"] }
+"ui.text.focus" = { fg = "alt10", modifiers = ["bold"] }
 
 # popups/menus
 "ui.window" = { fg = "gray7" }
@@ -19,14 +19,14 @@
 "ui.text.info" = { fg = "gray12", bg = "gray2" }
 "ui.help" = { fg = "gray12", bg = "gray2" }
 "ui.menu" = { fg = "gray11", bg = "gray4" }
-"ui.menu.selected" = { fg = "alt10", modifiers=["bold"] }
+"ui.menu.selected" = { fg = "alt10", modifiers = ["bold"] }
 "ui.menu.scroll" = { fg = "gray8", bg = "gray4" }
 
 # cursor/selection
 "ui.cursor" = { fg = "gray2", bg = "gray11" }
-"ui.cursor.insert" = { fg="alt2", bg="alt10" }
-"ui.cursor.select" = { fg="gray2", bg="gray12"}
-"ui.cursor.match" = { fg="alt10", modifiers=["bold"]}
+"ui.cursor.insert" = { fg = "alt2", bg = "alt10" }
+"ui.cursor.select" = { fg = "gray2", bg = "gray12" }
+"ui.cursor.match" = { fg = "alt10", modifiers = ["bold"] }
 "ui.selection" = { fg = "gray12", bg = "gray5" }
 "ui.selection.primary" = { fg = "alt12", bg = "alt5" }
 "ui.cursorline.primary" = { bg = "gray3" }
@@ -61,10 +61,10 @@ hint = { fg = "info10" }
 
 # code
 comment = { fg = "info9" }
-keyword = { fg = "alt9", modifiers=["bold"] }
+keyword = { fg = "alt9", modifiers = ["bold"] }
 operator = { fg = "alt9" }
 string = { fg = "str9" }
-constant = { fg = "const9"}
+constant = { fg = "const9" }
 "string.symbol" = { fg = "const9" }
 variable = { fg = "gray9" }
 namespace = { fg = "gray9" }
@@ -74,7 +74,7 @@ attribute = { fg = "gray11" }
 tag = { fg = "gray12" }
 label = { fg = "gray12" }
 constructor = { fg = "gray12" }
-type = { fg = "gray12" , modifiers = [] }
+type = { fg = "gray12" }
 
 # markup
 markup = { fg = "gray9" }

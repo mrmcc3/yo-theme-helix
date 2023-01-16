@@ -1,16 +1,16 @@
 # yo_light
 
 # Helix theme inspired by Zenbones & Alabaster using the
-# radix color system - https://www.radix-ui.com/colors
+# radix color system https://www.radix-ui.com/colors
 
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
-inherits = "yo_dark" 
+inherits = "yo_dark"
 
 # bump up backgrounds by 1 so it's not too bright.
 
-"ui.background" = { fg = "gray11", bg = "gray3" } 
+"ui.background" = { fg = "gray11", bg = "gray3" }
 
 # popups/menus
 "ui.popup" = { fg = "gray12", bg = "gray5" }
@@ -22,8 +22,8 @@ inherits = "yo_dark"
 
 # cursor/selection
 "ui.cursor" = { fg = "gray3", bg = "gray11" }
-"ui.cursor.insert" = { fg="alt3", bg="alt10" }
-"ui.cursor.select" = { fg="gray3", bg="gray12"}
+"ui.cursor.insert" = { fg = "alt3", bg = "alt10" }
+"ui.cursor.select" = { fg = "gray3", bg = "gray12" }
 "ui.selection" = { fg = "gray12", bg = "gray6" }
 "ui.selection.primary" = { fg = "alt12", bg = "alt6" }
 "ui.cursorline.primary" = { bg = "gray4" }
