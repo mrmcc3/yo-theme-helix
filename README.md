@@ -13,14 +13,13 @@ A [Helix][helix] theme inspired by [Zenbones][zenbones] &
   - It doesn't highlight keywords (reserved words) or types. (which to be fair isn't really an issue for
   clojure)
   - Yo doesn't go quite as far on this point.
-  - Instead it takes the minimal zenbones approach to highlight the remaining
-    code constructs.
-    - subtle colors, contrast.
+  - Instead it takes the minimal zenbones approach to highlight the remaining code.
+    - subtle colors & contrast.
     - vibrant colors are left for diagnostics.
 - The default yo themes use the following:
   - **Green** for strings (same as alabaster)
   - **Purple** for constant (same as alabaster)
-  - **Blue** for comments (incl. LSP info/hints)
+  - **Blue** for info (comments & LSP info/hints)
   - **Red/Amber** LSP error/warnings
   - **Gray/Bronze** Everything else zenbones style
 - I'm not a designer and don't like my chances of making something look good by
