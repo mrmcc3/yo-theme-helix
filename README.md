@@ -1,3 +1,4 @@
+
 # yo-theme-helix
 
 A [Helix][helix] theme inspired by [Zenbones][zenbones] &
@@ -31,6 +32,12 @@ A [Helix][helix] theme inspired by [Zenbones][zenbones] &
   - It should be straightforward to use helix theme inheritance to swap out the
     default color palette with other radix color combinations without losing the
     principles of the theme.
+    
+### Screenshots
+
+| **yo_dark** | **yo_light** |
+|:-:|:-:|
+| ![yo_dark](https://user-images.githubusercontent.com/4220099/212813139-25b402b9-d069-4852-8bf6-991fa315d028.png) | ![yo_light](https://user-images.githubusercontent.com/4220099/212813150-2487a515-9144-47be-a2d0-b4e06cdc15da.png) |
 
 [helix]: https://helix-editor.com/
 [zenbones]: https://github.com/mcchrish/zenbones.nvim
