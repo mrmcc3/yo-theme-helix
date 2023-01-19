@@ -26,7 +26,7 @@
 "ui.cursor" = { fg = "gray2", bg = "gray11" }
 "ui.cursor.insert" = { fg = "alt2", bg = "alt10" }
 "ui.cursor.select" = { fg = "gray2", bg = "gray12" }
-"ui.cursor.match" = { fg = "alt10"  }
+"ui.cursor.match" = { fg = "gray12", modifiers = ["bold"]  }
 "ui.selection" = { fg = "gray12", bg = "gray5" }
 "ui.selection.primary" = { fg = "alt12", bg = "alt5" }
 "ui.cursorline.primary" = { bg = "gray3" }
