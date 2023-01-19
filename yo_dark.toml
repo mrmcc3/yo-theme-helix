@@ -52,11 +52,11 @@ diff = { fg = "gray8" }
 # diagnostics
 warning = { fg = "warn10" }
 error = { fg = "err10", modifiers = ["bold"] }
-info = { fg = "info10" }
-hint = { fg = "info10" }
-"diagnostic.hint" = { fg = "info10" }
-"diagnostic.info" = { fg = "info10" }
-"diagnostic.warning" = { fg = "warn10"  }
+info = { fg = "info10", modifiers = ["bold"] }
+hint = { fg = "info10", modifiers = ["bold"] }
+"diagnostic.hint" = { fg = "info10", modifiers = ["bold"] }
+"diagnostic.info" = { fg = "info10", modifiers = ["bold"] }
+"diagnostic.warning" = { fg = "warn10", modifiers = ["bold"]  }
 "diagnostic.error" = { fg = "err10", modifiers = ["bold"] }
 
 # code
@@ -65,9 +65,9 @@ keyword = { fg = "alt9" }
 operator = { fg = "alt9" }
 string = { fg = "str9" }
 constant = { fg = "const9" }
-"string.symbol" = { fg = "const9" }
-variable = { fg = "gray11" }
-namespace = { fg = "gray11" }
+"string.special.symbol" = { fg = "const9" }
+variable = { fg = "gray10" }
+namespace = { fg = "gray10" }
 punctuation = { fg = "gray11" }
 function = { fg = "gray11" }
 attribute = { fg = "gray11" }
