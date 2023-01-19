@@ -34,9 +34,14 @@
     
 ### Screenshots
 
-| **yo_dark** | **yo_light** |
+| **yo** | **yo_light** |
 |:-:|:-:|
-| ![yo_dark](https://user-images.githubusercontent.com/4220099/212813139-25b402b9-d069-4852-8bf6-991fa315d028.png) | ![yo_light](https://user-images.githubusercontent.com/4220099/212813150-2487a515-9144-47be-a2d0-b4e06cdc15da.png) |
+|![yo](https://user-images.githubusercontent.com/4220099/213587637-47feb9cb-16f1-4a0e-998d-5e684321a6b6.png)|![yo_light](https://user-images.githubusercontent.com/4220099/213587651-824ab69b-9c67-49d4-b045-cd17b540fb2f.png)|
+
+| **yo_berry** | **yo_berry_light** |
+|:-:|:-:|
+|![yo_berry](https://user-images.githubusercontent.com/4220099/213587643-8cdf4995-cb78-44f4-a0f4-a1221d59bb22.png)|![yo_berry_light](https://user-images.githubusercontent.com/4220099/213587646-d4141b57-322d-4e1f-9d43-1d33e755bc96.png)|
+
 
 [helix]: https://helix-editor.com/
 [zenbones]: https://github.com/mcchrish/zenbones.nvim
