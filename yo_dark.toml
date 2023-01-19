@@ -28,7 +28,7 @@
 "ui.cursor.select" = { fg = "gray2", bg = "gray12" }
 "ui.cursor.match" = { fg = "gray12", modifiers = ["bold"]  }
 "ui.selection" = { fg = "gray12", bg = "gray5" }
-"ui.selection.primary" = { fg = "alt12", bg = "alt5" }
+"ui.selection.primary" = { fg = "gray12", bg = "alt5" }
 "ui.cursorline.primary" = { bg = "gray3" }
 
 # line numbers / diff
@@ -50,22 +50,22 @@ diff = { fg = "gray8" }
 "ui.virtual.indent-guide" = { fg = "gray6" }
 
 # diagnostics
-warning = { fg = "warn10" }
-error = { fg = "err10", modifiers = ["bold"] }
-info = { fg = "info10", modifiers = ["bold"] }
-hint = { fg = "info10", modifiers = ["bold"] }
-"diagnostic.hint" = { fg = "info10", modifiers = ["bold"] }
-"diagnostic.info" = { fg = "info10", modifiers = ["bold"] }
-"diagnostic.warning" = { fg = "warn10", modifiers = ["bold"]  }
-"diagnostic.error" = { fg = "err10", modifiers = ["bold"] }
+warning = { fg = "warning", modifiers = ["bold"] }
+error = { fg = "error", modifiers = ["bold"] }
+info = { fg = "info", modifiers = ["bold"] }
+hint = { fg = "info", modifiers = ["bold"] }
+"diagnostic.hint" = { fg = "info", modifiers = ["bold"] }
+"diagnostic.info" = { fg = "info", modifiers = ["bold"] }
+"diagnostic.warning" = { fg = "warning", modifiers = ["bold"]  }
+"diagnostic.error" = { fg = "error", modifiers = ["bold"] }
 
 # code
-comment = { fg = "info10" }
+comment = { fg = "info" }
 keyword = { fg = "alt9" }
 operator = { fg = "alt9" }
-string = { fg = "str9" }
-constant = { fg = "const9" }
-"string.special.symbol" = { fg = "const9" }
+string = { fg = "string" }
+constant = { fg = "constant" }
+"string.special.symbol" = { fg = "constant" }
 variable = { fg = "gray10" }
 namespace = { fg = "gray10" }
 punctuation = { fg = "gray11" }
@@ -88,6 +88,12 @@ markup = { fg = "gray9" }
 "markup.raw" = { fg = "gray12" }
 
 [palette] # https://www.radix-ui.com/docs/colors/palette-composition/the-scales
+
+error = "#f2555a" # redDark-10
+warning = "#ffcb47" # amberDark-10
+info = "#369eff" # blueDark-10
+string = "#46a758" # greenDark-9
+constant = "#8e4ec6" # purpleDark-9
 
 # gray (default/text/ui) - sandDark
 gray1 = "#161615"
@@ -117,72 +123,3 @@ alt10 = "#b08c7d"
 alt11 = "#cba393"
 alt12 = "#f9ede7"
 
-# error (diagnostics) - redDark
-err1 = "#1f1315"
-err2 = "#291415"
-err3 = "#3c181a"
-err4 = "#481a1d"
-err5 = "#541b1f"
-err6 = "#671e22"
-err7 = "#822025"
-err8 = "#aa2429"
-err9 = "#e5484d"
-err10 = "#f2555a"
-err11 = "#ff6369"
-err12 = "#feecee"
-
-# warning (diagnostics) - amberDark
-warn1 = "#1f1300"
-warn2 = "#271700"
-warn3 = "#341c00"
-warn4 = "#3f2200"
-warn5 = "#4a2900"
-warn6 = "#573300"
-warn7 = "#693f05"
-warn8 = "#824e00"
-warn9 = "#ffb224"
-warn10 = "#ffcb47"
-warn11 = "#f1a10d"
-warn12 = "#fef3dd"
-
-# info (diagnostics/comments) - blueDark
-info1 = "#0f1720"
-info2 = "#0f1b2d"
-info3 = "#10243e"
-info4 = "#102a4c"
-info5 = "#0f3058"
-info6 = "#0d3868"
-info7 = "#0a4481"
-info8 = "#0954a5"
-info9 = "#0091ff"
-info10 = "#369eff"
-info11 = "#52a9ff"
-info12 = "#eaf6ff"
-
-# str (strings) - grassDark
-str1 = "#0d1912"
-str2 = "#0f1e13"
-str3 = "#132819"
-str4 = "#16301d"
-str5 = "#193921"
-str6 = "#1d4427"
-str7 = "#245530"
-str8 = "#2f6e3b"
-str9 = "#46a758"
-str10 = "#55b467"
-str11 = "#63c174"
-str12 = "#e5fbeb"
-
-# const (constants/literals) - purpleDark
-const1 = "#1b141d"
-const2 = "#221527"
-const3 = "#301a3a"
-const4 = "#3a1e48"
-const5 = "#432155"
-const6 = "#4e2667"
-const7 = "#5f2d84"
-const8 = "#7938b2"
-const9 = "#8e4ec6"
-const10 = "#9d5bd2"
-const11 = "#bf7af0"
-const12 = "#f7ecfc"

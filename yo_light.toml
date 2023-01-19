@@ -8,6 +8,7 @@
 
 inherits = "yo_dark"
 
+# TODO bump up the palette instead
 # bump up backgrounds by 1 so it's not too bright.
 
 "ui.background" = { fg = "gray11", bg = "gray3" }
@@ -47,6 +48,12 @@ inherits = "yo_dark"
 
 [palette] # https://www.radix-ui.com/docs/colors/palette-composition/the-scales
 
+error = "#dc3d43" # red-10
+warning = "#ed5f00" # orange-10
+info = "#0081f1" # blue-10
+string = "#46a758" # grass-9
+constant = "#8e4ec6" # purple-9
+
 # gray (default/text/ui) - sand
 gray1 = "#fdfdfc"
 gray2 = "#f9f9f8"
@@ -75,72 +82,3 @@ alt10 = "#977669"
 alt11 = "#846358"
 alt12 = "#43302b"
 
-# error (diagnostics) - red
-err1 = "#fffcfc"
-err2 = "#fff8f8"
-err3 = "#ffefef"
-err4 = "#ffe5e5"
-err5 = "#fdd8d8"
-err6 = "#f9c6c6"
-err7 = "#f3aeaf"
-err8 = "#eb9091"
-err9 = "#e5484d"
-err10 = "#dc3d43"
-err11 = "#cd2b31"
-err12 = "#381316"
-
-# warn (diagnostics) - orange
-warn1 = "#fefcfb"
-warn2 = "#fef8f4"
-warn3 = "#fff1e7"
-warn4 = "#ffe8d7"
-warn5 = "#ffdcc3"
-warn6 = "#ffcca7"
-warn7 = "#ffb381"
-warn8 = "#fa934e"
-warn9 = "#f76808"
-warn10 = "#ed5f00"
-warn11 = "#bd4b00"
-warn12 = "#451e11"
-
-# info (diagnostics/comments) - blue
-info1 = "#fbfdff"
-info2 = "#f5faff"
-info3 = "#edf6ff"
-info4 = "#e1f0ff"
-info5 = "#cee7fe"
-info6 = "#b7d9f8"
-info7 = "#96c7f2"
-info8 = "#5eb0ef"
-info9 = "#0091ff"
-info10 = "#0081f1"
-info11 = "#006adc"
-info12 = "#00254d"
-
-# str (strings) - grass
-str1 = "#fbfefb"
-str2 = "#f3fcf3"
-str3 = "#ebf9eb"
-str4 = "#dff3df"
-str5 = "#ceebcf"
-str6 = "#b7dfba"
-str7 = "#97cf9c"
-str8 = "#65ba75"
-str9 = "#46a758"
-str10 = "#3d9a50"
-str11 = "#297c3b"
-str12 = "#1b311e"
-
-# const (constants/literals) - purple
-const1 = "#fefcfe"
-const2 = "#fdfaff"
-const3 = "#f9f1fe"
-const4 = "#f3e7fc"
-const5 = "#eddbf9"
-const6 = "#e3ccf4"
-const7 = "#d3b4ed"
-const8 = "#be93e4"
-const9 = "#8e4ec6"
-const10 = "#8445bc"
-const11 = "#793aaf"
-const12 = "#2b0e44"
