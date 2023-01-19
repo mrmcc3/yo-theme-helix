@@ -36,7 +36,7 @@
 
 | **yo** | **yo_light** |
 |:-:|:-:|
-|![yo](https://user-images.githubusercontent.com/4220099/213587637-47feb9cb-16f1-4a0e-998d-5e684321a6b6.png)|![yo_light](https://user-images.githubusercontent.com/4220099/213587651-824ab69b-9c67-49d4-b045-cd17b540fb2f.png)|
+|![yo](https://user-images.githubusercontent.com/4220099/213588257-f4ef642d-39f8-4b99-9a92-dff14b781633.png)|![yo_light](https://user-images.githubusercontent.com/4220099/213587651-824ab69b-9c67-49d4-b045-cd17b540fb2f.png)|
 
 | **yo_berry** | **yo_berry_light** |
 |:-:|:-:|
