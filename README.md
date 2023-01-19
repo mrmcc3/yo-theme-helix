@@ -1,7 +1,6 @@
-
 # yo-theme-helix
 
-A [Helix][helix] theme inspired by [Zenbones][zenbones] &
+[Helix][helix] themes inspired by [Zenbones][zenbones] &
 [Alabaster][alabaster]. Uses [Radix Colors][radix].
 
 ### Notes
@@ -31,7 +30,7 @@ A [Helix][helix] theme inspired by [Zenbones][zenbones] &
 - Variants.
   - It should be straightforward to use helix theme inheritance to swap out the
     default color palette with other radix color combinations without losing the
-    principles of the theme.
+    principles of the theme. (see the berry variant)
     
 ### Screenshots
 

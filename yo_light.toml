@@ -1,84 +1,27 @@
 # yo_light
 
-# Helix theme inspired by Zenbones & Alabaster using the
-# radix color system https://www.radix-ui.com/colors
-
+# Helix theme inspired by Zenbones & Alabaster.
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
-inherits = "yo_dark"
+inherits = "yo"
 
-# TODO bump up the palette instead
-# bump up backgrounds by 1 so it's not too bright.
+[palette] # radix ui colors
 
-"ui.background" = { fg = "gray11", bg = "gray3" }
-
-# popups/menus
-"ui.popup" = { fg = "gray12", bg = "gray5" }
-"ui.popup.info" = { fg = "gray12", bg = "gray3" }
-"ui.text.info" = { fg = "gray12", bg = "gray3" }
-"ui.help" = { fg = "gray12", bg = "gray3" }
-"ui.menu" = { fg = "gray11", bg = "gray5" }
-"ui.menu.scroll" = { fg = "gray8", bg = "gray5" }
-
-# cursor/selection
-"ui.cursor" = { fg = "gray3", bg = "gray11" }
-"ui.cursor.insert" = { fg = "alt3", bg = "alt10" }
-"ui.cursor.select" = { fg = "gray3", bg = "gray12" }
-"ui.selection" = { fg = "gray12", bg = "gray6" }
-"ui.selection.primary" = { fg = "alt12", bg = "alt6" }
-"ui.cursorline.primary" = { bg = "gray4" }
-
-# line numbers
-"ui.linenr" = { fg = "gray8" }
-"ui.linenr.selected" = { fg = "alt8" }
-
-# statusline
-"ui.statusline" = { fg = "gray11", bg = "gray5" }
-"ui.statusline.inactive" = { fg = "gray11", bg = "gray3" }
-"ui.statusline.normal" = { fg = "gray3", bg = "gray11" }
-"ui.statusline.insert" = { fg = "alt3", bg = "alt10" }
-"ui.statusline.select" = { fg = "alt3", bg = "gray12" }
-"ui.statusline.separator" = { fg = "gray8" }
-
-# virtual
-"ui.virtual.ruler" = { bg = "gray4" }
-"ui.virtual.whitespace" = { fg = "gray7" }
-"ui.virtual.indent-guide" = { fg = "gray7" }
-
-[palette] # https://www.radix-ui.com/docs/colors/palette-composition/the-scales
+# primary - sand
+p1 = "#fdfdfc"
+p2 = "#f9f9f8"
+p3 = "#f3f3f2"
+p4 = "#eeeeec"
+p5 = "#e9e9e6"
+p6 = "#e3e3e0"
+p7 = "#dbdbd7"
+p8 = "#c8c7c1"
+p9 = "#90908c"
+p10 = "#868682"
+p11 = "#706f6c"
+p12 = "#1b1b18"
 
 error = "#dc3d43" # red-10
 warning = "#ed5f00" # orange-10
 info = "#0081f1" # blue-10
-string = "#46a758" # grass-9
-constant = "#8e4ec6" # purple-9
-
-# gray (default/text/ui) - sand
-gray1 = "#fdfdfc"
-gray2 = "#f9f9f8"
-gray3 = "#f3f3f2"
-gray4 = "#eeeeec"
-gray5 = "#e9e9e6"
-gray6 = "#e3e3e0"
-gray7 = "#dbdbd7"
-gray8 = "#c8c7c1"
-gray9 = "#90908c"
-gray10 = "#868682"
-gray11 = "#706f6c"
-gray12 = "#1b1b18"
-
-# alt (active/operators/keywords) - bronze
-alt1 = "#fdfcfc"
-alt2 = "#fdf8f6"
-alt3 = "#f8f1ee"
-alt4 = "#f2e8e4"
-alt5 = "#eaddd7"
-alt6 = "#e0cec7"
-alt7 = "#d1b9b0"
-alt8 = "#bfa094"
-alt9 = "#a18072"
-alt10 = "#977669"
-alt11 = "#846358"
-alt12 = "#43302b"
-

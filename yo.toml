@@ -1,0 +1,110 @@
+# yo
+
+# Helix theme inspired by Zenbones & Alabaster.
+# Author: Michael McClintock @mrmcc3
+# License: MIT
+
+# background/text
+"ui.background" = { fg = "p11", bg = "p2" }
+"ui.background.separator" = { fg = "p7" }
+"ui.text" = { fg = "p11" }
+"ui.text.focus" = { fg = "p12", modifiers = ["bold"] }
+
+# popups/menus
+"ui.window" = { fg = "p7" }
+"ui.popup" = { fg = "p12", bg = "p4" }
+"ui.popup.info" = { fg = "p12", bg = "p2" }
+"ui.text.info" = { fg = "p12", bg = "p2" }
+"ui.help" = { fg = "p12", bg = "p2" }
+"ui.menu" = { fg = "p11", bg = "p4" }
+"ui.menu.selected" = { fg = "p12", modifiers = ["bold"] }
+"ui.menu.scroll" = { fg = "p8", bg = "p4" }
+
+# cursor/selection
+"ui.cursor" = { fg = "p2", bg = "p11" }
+"ui.cursor.insert" = { fg = "p2", bg = "keyword" }
+"ui.cursor.select" = { fg = "p2", bg = "p12" }
+"ui.cursor.match" = { fg = "p12", modifiers = ["bold"]  }
+"ui.selection" = { bg = "p5" }
+"ui.selection.primary" = { bg = "p5" }
+"ui.cursorline.primary" = { bg = "p3" }
+
+# line numbers / diff
+"ui.linenr" = { fg = "p7" }
+"ui.linenr.selected" = { fg = "p11" }
+diff = { fg = "p8" }
+
+# statusline
+"ui.statusline" = { fg = "p11", bg = "p4" }
+"ui.statusline.inactive" = { fg = "p11", bg = "p2" }
+"ui.statusline.normal" = { fg = "p2", bg = "p11" }
+"ui.statusline.insert" = { fg = "p2", bg = "keyword" }
+"ui.statusline.select" = { fg = "p2", bg = "p12" }
+"ui.statusline.separator" = { fg = "p7" }
+
+# virtual
+"ui.virtual.ruler" = { bg = "p3" }
+"ui.virtual.whitespace" = { fg = "p6" }
+"ui.virtual.indent-guide" = { fg = "p6" }
+
+# diagnostics
+warning = { fg = "warning", modifiers = ["bold"] }
+error = { fg = "error", modifiers = ["bold"] }
+info = { fg = "info", modifiers = ["bold"] }
+hint = { fg = "info", modifiers = ["bold"] }
+"diagnostic.hint" = { fg = "info", modifiers = ["bold"] }
+"diagnostic.info" = { fg = "info", modifiers = ["bold"] }
+"diagnostic.warning" = { fg = "warning", modifiers = ["bold"]  }
+"diagnostic.error" = { fg = "error", modifiers = ["bold"] }
+
+# code
+comment = { fg = "info" }
+keyword = { fg = "keyword" }
+operator = { fg = "keyword" }
+string = { fg = "string" }
+constant = { fg = "constant" }
+"string.special.symbol" = { fg = "constant" }
+variable = { fg = "p10" }
+namespace = { fg = "p10" }
+punctuation = { fg = "p11" }
+function = { fg = "p11" }
+attribute = { fg = "p11" }
+tag = { fg = "p12" }
+label = { fg = "p12" }
+constructor = { fg = "p12" }
+type = { fg = "p12" }
+
+# markup
+markup = { fg = "p9" }
+"markup.list" = { fg = "p8" }
+"markup.heading" = { fg = "p12", modifiers = ["bold"] }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.link" = { fg = "keyword" }
+"markup.link.url" = { fg = "keyword" }
+"markup.quote" = { modifiers = ["italic"] }
+"markup.raw" = { fg = "p12" }
+
+[palette] # radix ui colors
+
+# primary - sandDark
+p1 = "#161615"
+p2 = "#1c1c1a"
+p3 = "#232320"
+p4 = "#282826"
+p5 = "#2e2e2b"
+p6 = "#353431"
+p7 = "#3e3e3a"
+p8 = "#51504b"
+p9 = "#717069"
+p10 = "#7f7e77"
+p11 = "#a1a09a"
+p12 = "#ededec"
+
+error = "#f2555a" # redDark-10
+warning = "#ffcb47" # amberDark-10
+info = "#369eff" # blueDark-10
+
+string = "#46a758" # green-9
+constant = "#8e4ec6" # purple-9
+keyword = "#a18072" # bronze-9

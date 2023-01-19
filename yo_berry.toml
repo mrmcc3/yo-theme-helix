@@ -1,0 +1,32 @@
+# yo_berry - yo variant with berry colors
+
+# Helix theme inspired by Zenbones & Alabaster.
+# Author: Michael McClintock @mrmcc3
+# License: MIT
+
+inherits = "yo"
+
+[palette] # radix ui colors
+
+# primary - mauveDark
+p1 = "#161618"
+p2 = "#1c1c1f"
+p3 = "#232326"
+p4 = "#28282c"
+p5 = "#2e2e32"
+p6 = "#34343a"
+p7 = "#3e3e44"
+p8 = "#504f57"
+p9 = "#706f78"
+p10 = "#7e7d86"
+p11 = "#a09fa6"
+p12 = "#ededef"
+
+error = "#f04f88" # crimsonDark-10
+warning = "#ffef5c" # yellowDark-10
+info = "#369eff" # blueDark-10
+
+string = "#12a594" # teal-9
+constant = "#bd54c6" # plum-10
+keyword = "#9490e9" # custom
+
