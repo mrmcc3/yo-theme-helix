@@ -25,7 +25,7 @@
 "ui.cursor.insert" = { fg = "p2", bg = "keyword" }
 "ui.cursor.select" = { fg = "p2", bg = "p12" }
 "ui.cursor.match" = { fg = "p12", modifiers = ["bold"]  }
-"ui.selection" = { bg = "p5" }
+"ui.selection" = { bg = "p4" }
 "ui.selection.primary" = { bg = "p5" }
 "ui.cursorline.primary" = { bg = "p3" }
 
