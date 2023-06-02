@@ -34,7 +34,9 @@
 "ui.linenr.selected" = { fg = "p11" }
 diff = { fg = "p8" }
 
-# statusline
+# bufferline/statusline
+"ui.bufferline" = { fg = "p11", bg = "p4" }
+"ui.bufferline.active" = { fg = "p2", bg = "p11" }
 "ui.statusline" = { fg = "p11", bg = "p4" }
 "ui.statusline.inactive" = { fg = "p11", bg = "p2" }
 "ui.statusline.normal" = { fg = "p2", bg = "p11" }
@@ -46,6 +48,7 @@ diff = { fg = "p8" }
 "ui.virtual.ruler" = { bg = "p3" }
 "ui.virtual.whitespace" = { fg = "p6" }
 "ui.virtual.indent-guide" = { fg = "p6" }
+"ui.virtual.inlay-hint" = { fg = "p7" } # TODO test
 
 # diagnostics
 warning = { fg = "warning", modifiers = ["bold"] }
