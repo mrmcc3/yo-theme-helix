@@ -1,6 +1,4 @@
-# yo
-
-# Helix theme inspired by Zenbones & Alabaster.
+# Helix theme inspired by Zenbones & Alabaster with radix colors.
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
@@ -69,10 +67,8 @@ constant = { fg = "constant" }
 "string.special.symbol" = { fg = "constant" }
 variable = { fg = "p10" }
 namespace = { fg = "p10" }
-
-"punctuation.bracket" = { fg = "p9" }
+punctuation = { fg = "p9" }
 "punctuation.delimiter" = { fg = "p8" }
-
 function = { fg = "p11" }
 attribute = { fg = "p11" }
 tag = { fg = "p12" }
@@ -93,25 +89,24 @@ markup = { fg = "p9" }
 
 [palette] # radix ui colors
 
-# primary - sandDark
-p1 = "#111110"
-p2 = "#191918"
-p3 = "#222221"
-p4 = "#2a2a28"
-p5 = "#31312e"
-p6 = "#3b3a37"
-p7 = "#494844"
-p8 = "#62605b"
-p9 = "#6f6d66"
-p10 = "#7c7b74"
-p11 = "#b5b3ad"
-p12 = "#eeeeec"
+# grayDark
+p1 = "#111111"
+p2 = "#191919"
+p3 = "#222222"
+p4 = "#2a2a2a"
+p5 = "#313131"
+p6 = "#3a3a3a"
+p7 = "#484848"
+p8 = "#606060"
+p9 = "#6e6e6e"
+p10 = "#7b7b7b"
+p11 = "#b4b4b4"
+p12 = "#eeeeee"
 
-error = "#ec6142" # tomatoDark-10
-warning = "#ffd60a" # amberDark-10
+error = "#ec5d5e" # redDark-10
+warning = "#ff801f" # orangeDark-10
 info = "#3b9eff" # blueDark-10
 
-string = "#53b365" # grass-10
-constant = "#9a5cd0" # purple-10
-keyword = "#ae8c7e" # bronze-10
-
+string = "#33b074" # greenDark-10
+constant = "#9a5cd0" # purpleDark-10
+keyword = "#ae8c7e" # bronzeDark-10
