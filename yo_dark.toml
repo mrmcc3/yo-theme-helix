@@ -10,8 +10,8 @@ inherits = "yo"
 
 # in the default theme p1 is unused. shift p1-p5 -> p2-p6
 
-p2 = "#161615"
-p3 = "#1c1c1a"
-p4 = "#232320"
-p5 = "#282826"
-p6 = "#2e2e2b"
+p2 = "#111110"
+p3 = "#191918"
+p4 = "#222221"
+p5 = "#2a2a28"
+p6 = "#31312e"

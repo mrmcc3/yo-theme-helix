@@ -26,5 +26,7 @@ error = "#e03177" # crimson-10
 warning = "#ed5f00" # orange-10
 info = "#0081f1" # blue-10
 
-constant = "#a43cb4" # plum-10
+string = "#12a594" # teal-9
+constant = "#ab4aba" # plum-9
+keyword = "#5151cd" # iris-10
 

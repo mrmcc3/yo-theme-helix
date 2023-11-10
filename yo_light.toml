@@ -11,17 +11,22 @@ inherits = "yo"
 # primary - sand
 p1 = "#fdfdfc"
 p2 = "#f9f9f8"
-p3 = "#f3f3f2"
-p4 = "#eeeeec"
-p5 = "#e9e9e6"
-p6 = "#e3e3e0"
-p7 = "#dbdbd7"
-p8 = "#c8c7c1"
-p9 = "#90908c"
-p10 = "#868682"
-p11 = "#706f6c"
-p12 = "#1b1b18"
+p3 = "#f1f0ef"
+p4 = "#e9e8e6"
+p5 = "#e2e1de"
+p6 = "#dad9d6"
+p7 = "#cfceca"
+p8 = "#bcbbb5"
+p9 = "#8d8d86"
+p10 = "#82827c"
+p11 = "#63635e"
+p12 = "#21201c"
 
-error = "#dc3d43" # red-10
-warning = "#ed5f00" # orange-10
-info = "#0081f1" # blue-10
+error = "#dd4425" # tomato-10
+warning = "#ffba18" # amber-10
+info = "#0588f0" # blue-10
+
+string = "#46a758" # grass-9
+constant = "#8e4ec6" # purple-9
+keyword = "#a18072" # bronze-9
+

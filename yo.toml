@@ -69,7 +69,10 @@ constant = { fg = "constant" }
 "string.special.symbol" = { fg = "constant" }
 variable = { fg = "p10" }
 namespace = { fg = "p10" }
-punctuation = { fg = "p11" }
+
+"punctuation.bracket" = { fg = "p9" }
+"punctuation.delimiter" = { fg = "p8" }
+
 function = { fg = "p11" }
 attribute = { fg = "p11" }
 tag = { fg = "p12" }
@@ -91,23 +94,24 @@ markup = { fg = "p9" }
 [palette] # radix ui colors
 
 # primary - sandDark
-p1 = "#161615"
-p2 = "#1c1c1a"
-p3 = "#232320"
-p4 = "#282826"
-p5 = "#2e2e2b"
-p6 = "#353431"
-p7 = "#3e3e3a"
-p8 = "#51504b"
-p9 = "#717069"
-p10 = "#7f7e77"
-p11 = "#a1a09a"
-p12 = "#ededec"
+p1 = "#111110"
+p2 = "#191918"
+p3 = "#222221"
+p4 = "#2a2a28"
+p5 = "#31312e"
+p6 = "#3b3a37"
+p7 = "#494844"
+p8 = "#62605b"
+p9 = "#6f6d66"
+p10 = "#7c7b74"
+p11 = "#b5b3ad"
+p12 = "#eeeeec"
 
-error = "#f2555a" # redDark-10
-warning = "#ffcb47" # amberDark-10
-info = "#369eff" # blueDark-10
+error = "#ec6142" # tomatoDark-10
+warning = "#ffd60a" # amberDark-10
+info = "#3b9eff" # blueDark-10
 
-string = "#46a758" # green-9
-constant = "#8e4ec6" # purple-9
-keyword = "#a18072" # bronze-9
+string = "#53b365" # grass-10
+constant = "#9a5cd0" # purple-10
+keyword = "#ae8c7e" # bronze-10
+
