@@ -1,18 +1,15 @@
-# yo_berry_dark - darker yo berry variant
-
-# Helix theme inspired by Zenbones & Alabaster.
+# Helix theme inspired by Zenbones & Alabaster with radix colors.
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
 inherits = "yo_berry"
 
-[palette] # radix ui colors
+[palette]
 
-# primary - mauveDark. shift p1-p5 -> p2-p6
-
-p2 = "#161618"
-p3 = "#1c1c1f"
-p4 = "#232326"
-p5 = "#28282c"
-p6 = "#2e2e32"
+# mauveDark. shift p1-p5 -> p2-p6
+p2 = "#121113"
+p3 = "#1a191b"
+p4 = "#232225"
+p5 = "#2b292d"
+p6 = "#323035"
 

@@ -2,13 +2,14 @@
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
-inherits = "yo"
+inherits = "yo_sand"
 
 [palette]
 
-# grayDark. shift p1-p5 -> p2-p6
-p2 = "#111111"
-p3 = "#191919"
-p4 = "#222222"
-p5 = "#2a2a2a"
-p6 = "#313131"
+# sandDark. shift p1-p5 -> p2-p6
+p2 = "#111110"
+p3 = "#191918"
+p4 = "#222221"
+p5 = "#2a2a28"
+p6 = "#31312e"
+

@@ -1,12 +1,10 @@
-# yo_berry_light - light yo berry variant
-
-# Helix theme inspired by Zenbones & Alabaster.
+# Helix theme inspired by Zenbones & Alabaster with radix colors.
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
 inherits = "yo_berry"
 
-[palette] # radix ui colors
+[palette]
 
 # primary - mauve
 p1 = "#fdfcfd"
@@ -26,5 +24,7 @@ error = "#e03177" # crimson-10
 warning = "#ed5f00" # orange-10
 info = "#0081f1" # blue-10
 
-constant = "#a43cb4" # plum-10
+string = "#0d9b8a" # teal-10
+constant = "#a144af" # plum-10
+keyword = "#5753c6" # iris-11
 

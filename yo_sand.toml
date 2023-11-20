@@ -1,0 +1,30 @@
+# Helix theme inspired by Zenbones & Alabaster with radix colors.
+# Author: Michael McClintock @mrmcc3
+# License: MIT
+
+inherits = "yo"
+
+[palette]
+
+# sandDark
+p1 = "#111110"
+p2 = "#191918"
+p3 = "#222221"
+p4 = "#2a2a28"
+p5 = "#31312e"
+p6 = "#3b3a37"
+p7 = "#494844"
+p8 = "#62605b"
+p9 = "#6f6d66"
+p10 = "#7c7b74"
+p11 = "#b5b3ad"
+p12 = "#eeeeec"
+
+error = "#ec6142" # tomatoDark-10
+warning = "#ffd60a" # amberDark-10
+info = "#23afd0" # cyanDark-10
+
+string = "#53b365" # grassDark-10
+constant = "#de51a8" # pinkDark-10
+keyword = "#dbb594" # brownDark-11
+

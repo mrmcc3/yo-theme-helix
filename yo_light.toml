@@ -1,27 +1,30 @@
-# yo_light
-
-# Helix theme inspired by Zenbones & Alabaster.
+# Helix theme inspired by Zenbones & Alabaster with radix colors.
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
 inherits = "yo"
 
-[palette] # radix ui colors
+[palette]
 
-# primary - sand
-p1 = "#fdfdfc"
-p2 = "#f9f9f8"
-p3 = "#f3f3f2"
-p4 = "#eeeeec"
-p5 = "#e9e9e6"
-p6 = "#e3e3e0"
-p7 = "#dbdbd7"
-p8 = "#c8c7c1"
-p9 = "#90908c"
-p10 = "#868682"
-p11 = "#706f6c"
-p12 = "#1b1b18"
+# gray
+p1 = "#fcfcfc"
+p2 = "#f9f9f9"
+p3 = "#f0f0f0"
+p4 = "#e8e8e8"
+p5 = "#e0e0e0"
+p6 = "#d9d9d9"
+p7 = "#cecece"
+p8 = "#bbbbbb"
+p9 = "#8d8d8d"
+p10 = "#838383"
+p11 = "#646464"
+p12 = "#202020"
 
-error = "#dc3d43" # red-10
-warning = "#ed5f00" # orange-10
-info = "#0081f1" # blue-10
+
+error = "#dc3e42" # red-10
+warning = "#ef5f00" # orange-10
+info = "#0588f0" # blue-10
+
+string = "#2b9a66" # green-10
+constant = "#8347b9" # purple-10
+keyword = "#957468" # bronze-10

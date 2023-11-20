@@ -1,32 +1,30 @@
-# yo_berry - yo variant with berry colors
-
-# Helix theme inspired by Zenbones & Alabaster.
+# Helix theme inspired by Zenbones & Alabaster with radix colors.
 # Author: Michael McClintock @mrmcc3
 # License: MIT
 
 inherits = "yo"
 
-[palette] # radix ui colors
+[palette]
 
-# primary - mauveDark
-p1 = "#161618"
-p2 = "#1c1c1f"
-p3 = "#232326"
-p4 = "#28282c"
-p5 = "#2e2e32"
-p6 = "#34343a"
-p7 = "#3e3e44"
-p8 = "#504f57"
-p9 = "#706f78"
-p10 = "#7e7d86"
-p11 = "#a09fa6"
-p12 = "#ededef"
+# mauveDark
+p1 = "#121113"
+p2 = "#1a191b"
+p3 = "#232225"
+p4 = "#2b292d"
+p5 = "#323035"
+p6 = "#3c393f"
+p7 = "#49474e"
+p8 = "#625f69"
+p9 = "#6f6d78"
+p10 = "#7c7a85"
+p11 = "#b5b2bc"
+p12 = "#eeeef0"
 
-error = "#f04f88" # crimsonDark-10
-warning = "#ffef5c" # yellowDark-10
-info = "#369eff" # blueDark-10
+error = "#ee518a" # crimsonDark-10
+warning = "#ffff57" # yellowDark-10
+info = "#3b9eff" # blueDark-10
 
-string = "#12a594" # teal-9
-constant = "#bd54c6" # plum-10
-keyword = "#9490e9" # custom
+string = "#0eb39e" # teal-10
+constant = "#b658c4" # plum-10
+keyword = "#9eb1ff" # indigo-11
 
