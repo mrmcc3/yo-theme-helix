@@ -45,15 +45,15 @@
 
 | **yo** | **yo_light** |
 |:-:|:-:|
-|<img width="698" alt="yo" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/0566f2bb-47ae-4cd9-a07d-e4aca7e77800">|<img width="700" alt="yo_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/d5158316-94ca-4b52-949f-eda71550c8fe">|
+|<img width="710" alt="yo" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/11a18910-1a90-4196-bc8b-475ee8718b57">|<img width="717" alt="yo_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/9dc6eb1c-7464-41e8-9cce-00e9ac52532d">|
 
 | **yo_berry** | **yo_berry_light** |
 |:-:|:-:|
-|<img width="699" alt="yo_berry" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/a405d474-0619-4880-813f-803119b8b0e1">|<img width="701" alt="yo_berry_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/41271dc3-7afe-455c-a6a0-a4917708347a">|
+|<img width="698" alt="yo_berry" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/e87955b9-8328-4ec6-a390-90c241007541">|<img width="696" alt="yo_berry_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/0cf211f5-86ea-4d0b-a6ed-697a7d446030">|
 
 | **yo_sand** | **yo_sand_light** |
 |:-:|:-:|
-|<img width="697" alt="yo_sand" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/d19f95f1-5faa-44e0-be66-394c1e659d6a">|<img width="699" alt="yo_sand_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/9737acfb-3811-4060-a44e-8550c458c864">|
+|<img width="705" alt="yo_sand" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/4da47cbb-af45-484e-bfb5-7f7f81e96e5a">|<img width="696" alt="yo_sand_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/5acd80ea-a678-4f52-b0eb-cdda2d0cfac9">|
 
 [helix]: https://helix-editor.com/
 [zenbones]: https://github.com/mcchrish/zenbones.nvim
