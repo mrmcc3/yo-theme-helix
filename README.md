@@ -31,17 +31,29 @@
   - It should be straightforward to use helix theme inheritance to swap out the
     default color palette with other radix color combinations without losing the
     principles of the theme. (see the berry variant)
+- If you find languages that aren't highlighted nicely or have a suggestion for
+  improvements please open an issue.
+
+### Changes
+
+#### 2023-11-21
+
+- Update colors to radix colors 3.0
+- Add a new default theme. Move the old default to yo_sand with some color tweaks
     
 ### Screenshots
 
 | **yo** | **yo_light** |
 |:-:|:-:|
-|![yo](https://user-images.githubusercontent.com/4220099/213588257-f4ef642d-39f8-4b99-9a92-dff14b781633.png)|![yo_light](https://user-images.githubusercontent.com/4220099/213587651-824ab69b-9c67-49d4-b045-cd17b540fb2f.png)|
+|<img width="698" alt="yo" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/0566f2bb-47ae-4cd9-a07d-e4aca7e77800">|<img width="700" alt="yo_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/d5158316-94ca-4b52-949f-eda71550c8fe">|
 
 | **yo_berry** | **yo_berry_light** |
 |:-:|:-:|
-|![yo_berry](https://user-images.githubusercontent.com/4220099/213587643-8cdf4995-cb78-44f4-a0f4-a1221d59bb22.png)|![yo_berry_light](https://user-images.githubusercontent.com/4220099/213587646-d4141b57-322d-4e1f-9d43-1d33e755bc96.png)|
+|<img width="699" alt="yo_berry" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/a405d474-0619-4880-813f-803119b8b0e1">|<img width="701" alt="yo_berry_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/41271dc3-7afe-455c-a6a0-a4917708347a">|
 
+| **yo_sand** | **yo_sand_light** |
+|:-:|:-:|
+|<img width="697" alt="yo_sand" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/d19f95f1-5faa-44e0-be66-394c1e659d6a">|<img width="699" alt="yo_sand_light" src="https://github.com/mrmcc3/yo-theme-helix/assets/4220099/9737acfb-3811-4060-a44e-8550c458c864">|
 
 [helix]: https://helix-editor.com/
 [zenbones]: https://github.com/mcchrish/zenbones.nvim
