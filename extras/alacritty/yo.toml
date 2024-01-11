@@ -1,0 +1,25 @@
+# yo
+
+[colors.primary]
+background = "#191919" # grayDark-2
+foreground = "#b4b4b4" # grayDark-11
+
+[colors.normal]
+black   = "#606060" # grayDark-9
+red     = "#ec5d5e" # redDark-10
+green   = "#33b074" # greenDark-10
+yellow  = "#ff801f" # orangeDark-10
+blue    = "#3b9eff" # blueDark-10
+magenta = "#9a5cd0" # purpleDark-10
+cyan    = "#ae8c7e" # bronzeDark-10
+white   = "#eeeeee" # grayDark-12
+
+[colors.bright]
+black   = "#606060" # grayDark-9
+red     = "#ec5d5e" # redDark-10
+green   = "#33b074" # greenDark-10
+yellow  = "#ff801f" # orangeDark-10
+blue    = "#3b9eff" # blueDark-10
+magenta = "#9a5cd0" # purpleDark-10
+cyan    = "#ae8c7e" # bronzeDark-10
+white   = "#eeeeee" # grayDark-12

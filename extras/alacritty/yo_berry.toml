@@ -1,0 +1,25 @@
+# yo_berry
+
+[colors.primary]
+background = "#1a191b" # mauveDark-2
+foreground = "#b5b2bc" # mauveDark-11
+
+[colors.normal]
+black   = "#6f6d78" # mauveDark-9
+red     = "#ee518a" # crimsonDark-10
+green   = "#0eb39e" # teal-10
+yellow  = "#ffff57" # yellowDark-10
+blue    = "#3b9eff" # blueDark-10
+magenta = "#b658c4" # plum-10
+cyan    = "#9eb1ff" # indigo-11
+white   = "#eeeef0" # mauveDark-12
+
+[colors.bright]
+black   = "#6f6d78" # mauveDark-9
+red     = "#ee518a" # crimsonDark-10
+green   = "#0eb39e" # teal-10
+yellow  = "#ffff57" # yellowDark-10
+blue    = "#3b9eff" # blueDark-10
+magenta = "#b658c4" # plum-10
+cyan    = "#9eb1ff" # indigo-11
+white   = "#eeeef0" # mauveDark-12

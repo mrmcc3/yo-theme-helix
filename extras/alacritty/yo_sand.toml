@@ -1,0 +1,25 @@
+# yo_sand
+
+[colors.primary]
+background = "#191918" # sandDark-2
+foreground = "#b5b3ad" # sandDark-11
+
+[colors.normal]
+black   = "#6f6d66" # sandDark-9
+red     = "#ec6142" # tomatoDark-10
+green   = "#53b365" # grassDark-10
+yellow  = "#ffd60a" # amberDark-10
+blue    = "#23afd0" # cyanDark-10
+magenta = "#de51a8" # pinkDark-10
+cyan    = "#dbb594" # brownDark-11
+white   = "#eeeeec" # sandDark-12
+
+[colors.bright]
+black   = "#6f6d66" # sandDark-9
+red     = "#ec6142" # tomatoDark-10
+green   = "#53b365" # grassDark-10
+yellow  = "#ffd60a" # amberDark-10
+blue    = "#23afd0" # cyanDark-10
+magenta = "#de51a8" # pinkDark-10
+cyan    = "#dbb594" # brownDark-11
+white   = "#eeeeec" # sandDark-12
