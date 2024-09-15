@@ -27,7 +27,8 @@
 "ui.cursor.match" = { fg = "p12", modifiers = ["bold"] }
 "ui.selection" = { bg = "p4" }
 "ui.selection.primary" = { bg = "p5" }
-"ui.cursorline.primary" = { bg = "p3" }
+"ui.cursorline" = { bg = "p3" }
+"ui.cursorcolumn" = { bg = "p3" }
 
 # line numbers / diff
 "ui.linenr" = { fg = "p7" }
