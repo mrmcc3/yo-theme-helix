@@ -50,10 +50,8 @@ diff = { fg = "p8" }
 "ui.statusline.separator" = { fg = "p7" }
 
 # virtual
+"ui.virtual" = { fg = "p6" }
 "ui.virtual.ruler" = { bg = "p3" }
-"ui.virtual.whitespace" = { fg = "p6" }
-"ui.virtual.indent-guide" = { fg = "p6" }
-"ui.virtual.wrap" = { fg = "p6" }
 "ui.virtual.inlay-hint" = { fg = "p7", underline.style = "dotted" }
 "ui.virtual.jump-label" = { fg = "p12", modifiers = [
   "bold",
