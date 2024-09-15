@@ -1,6 +1,8 @@
-# Helix theme inspired by Zenbones & Alabaster with radix colors.
-# Author: Michael McClintock @mrmcc3
+# Author: Michael McClintock <michael.mcclintock@hey.com>
 # License: MIT
+
+# Yo - Themes for Helix inspired by Zenbones & Alabaster with Radix Colors.
+# https://github.com/mrmcc3/yo-theme-helix
 
 # background/text
 "ui.background" = { fg = "p11", bg = "p2" }
@@ -22,7 +24,7 @@
 "ui.cursor" = { fg = "p2", bg = "p11" }
 "ui.cursor.insert" = { fg = "p2", bg = "keyword" }
 "ui.cursor.select" = { fg = "p2", bg = "p12" }
-"ui.cursor.match" = { fg = "p12", modifiers = ["bold"]  }
+"ui.cursor.match" = { fg = "p12", modifiers = ["bold"] }
 "ui.selection" = { bg = "p4" }
 "ui.selection.primary" = { bg = "p5" }
 "ui.cursorline.primary" = { bg = "p3" }
@@ -46,17 +48,19 @@ diff = { fg = "p8" }
 "ui.virtual.ruler" = { bg = "p3" }
 "ui.virtual.whitespace" = { fg = "p6" }
 "ui.virtual.indent-guide" = { fg = "p6" }
-"ui.virtual.inlay-hint" = { fg = "p7" } # TODO test
+"ui.virtual.inlay-hint" = { fg = "p7", underline.style = "dotted" }
 
 # diagnostics
-warning = { fg = "warning", modifiers = ["bold"] }
 error = { fg = "error", modifiers = ["bold"] }
+warning = { fg = "warning", modifiers = ["bold"] }
 info = { fg = "info", modifiers = ["bold"] }
 hint = { fg = "info", modifiers = ["bold"] }
-"diagnostic.hint" = { fg = "info", modifiers = ["bold"] }
-"diagnostic.info" = { fg = "info", modifiers = ["bold"] }
-"diagnostic.warning" = { fg = "warning", modifiers = ["bold"]  }
 "diagnostic.error" = { fg = "error", modifiers = ["bold"] }
+"diagnostic.warning" = { fg = "warning", modifiers = ["bold"] }
+"diagnostic.info" = { fg = "info", modifiers = ["bold"] }
+"diagnostic.hint" = { fg = "info", modifiers = ["bold"] }
+# "diagnostic.unnecessary" = {}
+# "diagnostic.deprecated" = {}
 
 # code
 comment = { fg = "info" }
@@ -70,24 +74,26 @@ namespace = { fg = "p10" }
 punctuation = { fg = "p9" }
 "punctuation.delimiter" = { fg = "p8" }
 function = { fg = "p11" }
-attribute = { fg = "p11" }
-tag = { fg = "p12" }
+attribute = { fg = "p10" }
+tag = { fg = "keyword" }
 label = { fg = "p12" }
 constructor = { fg = "p12" }
 type = { fg = "p12" }
 
 # markup
-markup = { fg = "p9" }
-"markup.list" = { fg = "p8" }
-"markup.heading" = { fg = "p12", modifiers = ["bold"] }
 "markup.bold" = { modifiers = ["bold"] }
 "markup.italic" = { modifiers = ["italic"] }
-"markup.link" = { fg = "keyword" }
-"markup.link.url" = { fg = "keyword" }
-"markup.quote" = { modifiers = ["italic"] }
-"markup.raw" = { fg = "p12" }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.heading" = { fg = "p12", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "p8" }
+"markup.list" = { fg = "p8" }
+"markup.link.url" = { underline.style = "line" }
+"markup.link.label" = { underline.style = "dotted" }
+# "markup.link.text" = {}
+"markup.quote" = { fg = "p10" }
+# "markup.raw" = {}
 
-[palette] # radix ui colors
+[palette] # https://www.radix-ui.com/colors
 
 # grayDark
 p1 = "#111111"
@@ -103,10 +109,10 @@ p10 = "#7b7b7b"
 p11 = "#b4b4b4"
 p12 = "#eeeeee"
 
-error = "#ec5d5e" # redDark-10
+error = "#ec5d5e"   # redDark-10
 warning = "#ff801f" # orangeDark-10
-info = "#3b9eff" # blueDark-10
+info = "#3b9eff"    # blueDark-10
 
-string = "#33b074" # greenDark-10
+string = "#33b074"   # greenDark-10
 constant = "#9a5cd0" # purpleDark-10
-keyword = "#ae8c7e" # bronzeDark-10
+keyword = "#ae8c7e"  # bronzeDark-10

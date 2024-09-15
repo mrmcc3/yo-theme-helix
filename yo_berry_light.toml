@@ -1,12 +1,17 @@
-# Helix theme inspired by Zenbones & Alabaster with radix colors.
-# Author: Michael McClintock @mrmcc3
+# Author: Michael McClintock <michael.mcclintock@hey.com>
 # License: MIT
+
+# Yo - Themes for Helix inspired by Zenbones & Alabaster with Radix Colors.
+# https://github.com/mrmcc3/yo-theme-helix
 
 inherits = "yo_berry"
 
+"ui.virtual.inlay-hint" = { fg = "p8", underline.style = "dotted" }
+"markup.quote" = { fg = "p9" }
+
 [palette]
 
-# primary - mauve
+# mauve
 p1 = "#fdfcfd"
 p2 = "#f9f8f9"
 p3 = "#f4f2f4"
@@ -20,11 +25,10 @@ p10 = "#86848d"
 p11 = "#6f6e77"
 p12 = "#1a1523"
 
-error = "#e03177" # crimson-10
+error = "#e03177"   # crimson-10
 warning = "#ed5f00" # orange-10
-info = "#0081f1" # blue-10
+info = "#0081f1"    # blue-10
 
-string = "#0d9b8a" # teal-10
+string = "#0d9b8a"   # teal-10
 constant = "#a144af" # plum-10
-keyword = "#5753c6" # iris-11
-
+keyword = "#5753c6"  # iris-11
