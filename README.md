@@ -39,6 +39,9 @@ Uses [Radix Colors][radix].
 
 #### 2024-09-15
 
+- Support jump labels `gw`.
+- Primary cursor is now bold.
+- If enabled only the primary cursorline/column is shown.
 - Highlight HTML `tags` as keywords, dim attributes.
 - Use dotted underline for inlay hints.
 - Simplify markup highlighting (Markdown etc.) to prefer modifiers. Tweak quote
